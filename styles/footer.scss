@@ -1,0 +1,71 @@
+.footers{
+    justify-content: flex-end;
+    height: 310px;
+}
+.footer-1{
+    background-color: #2D4059;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+.options{
+    display: flex;
+    color: #E5E5E5;
+    
+}
+
+.icon{
+    margin-top: 20px;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #E5E5E5;
+    
+}
+
+.fa-solid{
+    color: #EA5455;
+    margin-left: 12px;
+    margin-top: 13px;
+    
+}
+
+  .footer-2{
+    background-color: #E5E5E5;
+    height: 180px;
+    display: flex;
+    color: #2D4059;
+    
+  }
+
+ ul {
+    list-style-type: none;
+  }
+
+  .acc-cata-quest{
+    margin-left: 150px;
+    margin-top: 20px;
+  }  
+
+  .visite-retrait-contact{
+    margin-left: 800px;
+    margin-top: 20px;
+  }
+
+  .footer-3{
+    background-color: #2D4059;
+    height: 30px;
+    color: #E5E5E5;
+    display: flex;
+  }
+
+  .mentions{
+    margin-left: 550px;
+    margin-top: 4px;
+  }
+
+
+  
+/*# sourceMappingURL=style.css.map */
