@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Montserrat", "sans-serif";
 }
 
 .header__superior {
@@ -105,7 +106,7 @@ body {
 
 .header__inferior-link--btn2 {
   border-radius: 50%;
-  width: 20px;
+  width: 30px;
   color: #EA5455;
   background-color: white;
   border-style: inherit;
@@ -161,7 +162,7 @@ ul {
 }
 
 .visite-retrait-contact {
-  margin-left: 800px;
+  margin-left: 600px;
   margin-top: 20px;
 }
 
@@ -179,18 +180,20 @@ ul {
 
 /*# sourceMappingURL=style.css.map */
 body {
-  margin: 0;
+  margin-top: 0;
 }
 
 .home {
   background-color: #e5e5e5;
-  height: 750px;
+  margin-top: -30px;
+  /* supprimer l'espace entre le header et le home*/
 }
 
 .titre {
   color: #EA5455;
   font-weight: bold;
   font-size: x-large;
+  margin-left: 15px;
 }
 
 .first-row-categorie {
