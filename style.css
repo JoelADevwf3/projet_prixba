@@ -80,3 +80,126 @@ h1 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/*-----HEADER------*/
+
+body{
+  margin:0;
+  font-family: 'Montserrat', 'sans-serif';
+
+}
+
+.header__superior{
+  background-color: #e5e5e5;
+  height: 105px;
+  display: flex;
+}
+
+.header__superior-logo{
+  margin:auto;
+}
+
+
+.header__superior-half{
+  margin-left:600px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.header__superior-steps{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__superior-steps--1{
+  border-radius: 50%;
+  width: 20px;
+  color: white;  
+  background-color: #EA5455;
+  border-style: inherit;
+  text-align: center;
+}
+
+.header__superior-steps--2{
+  border-radius: 50%;
+  width: 20px;
+  color: white; 
+  background-color: #EA5455;
+  border-style: inherit;
+  text-align: center;
+
+}
+
+.header__superior-steps--3{
+  border-radius: 50%;
+  width: 20px;
+  color: white; 
+  background-color: #EA5455;
+  border-style: inherit;
+  text-align: center;
+}
+
+
+.header__inferior{
+  background-color: #2D4059;
+  height: 102px;
+  display: flex;
+  
+}
+
+.header__inferior-search{
+  margin:auto;
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-between;
+  width: 480px;
+}
+
+.header__inferior-search--btn-1{
+  width: 100px;
+  height: 30px;
+}
+
+.header__inferior-search--btn-2{
+  width: 250px;
+  height:25px;
+  margin: auto;
+  border-style: inherit;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.header__inferior-search--btn-3{
+  width: 100px;
+  height: 30px;
+  background-color: #EA5455;
+  text-decoration: #e5e5e5;
+}
+
+.header__inferior-link{
+  margin: auto;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__inferior-link--1 ,.header__inferior-link--2 ,.header__inferior-link--3, a{
+  color: white;
+  text-decoration-line: none;
+}
+
+.header__inferior-link--basket-shop{
+  color: white;
+}
+
+.header__inferior-link--btn2{
+  border-radius: 50%;
+  width: 30px;
+  color: #EA5455; 
+  background-color:white;
+  border-style: inherit;
+  text-align: center;
+}
