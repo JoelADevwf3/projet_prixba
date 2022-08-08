@@ -65,10 +65,17 @@ h1 {
   display: flex;
 }
 
-#ptt-img {
+#ptt-img1 {
   width: 100px;
   height: 100px;
-  margin-left: 200px;
+  margin-left: 210px;
+  margin-top: 20px;
+}
+
+#ptt-img2 {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
   margin-top: 20px;
 }
 
