@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">  
+    
+</head>
+<body>
+    <header>
+        <!--la partie supérieure du header-->
+        <div class="header__superior">
+            <!--insertion du logo-->
+            <div class="header__superior-logo">
+                <img src="./images/logo_color.svg" alt="logo">
+            </div>
+                <div class="header__superior-half">
+                    <!--partie du header__superior-->
+                    <div class="header__superior-accroche">
+                        <!--la phrase d'accroche-->
+                        <h2>Tous vos besoins à petits prix dans la métrolpole Lilloise</h2>
+                    </div>
+                    <div class="header__superior-steps">
+                        <!--les étapes de la commande au paiement des articles-->
+                            <!--je crée des icônes en forme de petits cercles en appliquant la convention BEM-->
+                        <div class="header__superior-steps--1">1</div>Choix et commande des articles
+                        <div class="header__superior-steps--2">2</div>Retrait des articles
+                        <div class="header__superior-steps--3">3</div>Paiement des articles  
+                        
+                    </div>
+                </div>
+        </div>
+        <!--la partie inférieure du header-->
+        <div class="header__inferior">
+            <div class="header__inferior-search">
+                <!--bouton catégorie-->
+                <input class="header__inferior-search--btn-1" type="button" value="catégories">
+                <!--barre de recherche-->
+                <div class="header__inferior-search--btn-2"></div>
+                <button class="header__inferior-search--btn-3">Rechercher</button>
+            </div>
+            <div class="header__inferior-link">
+                <!--les liens-->
+                <div class="header__inferior-link--1"><a href="#">Catalogue</a></div>
+                <div class="header__inferior-link--2"><a href="#">Questions fréquentes</a></div>
+                <div class="header__inferior-link--3"><a href="#">Connexion</a></div>
+                <!--icone du panier-->
+                <div class="header__inferior-link--basket-shop">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </div>
+                
+                <div class="header__inferior-link--btn2">2</div>
+                
+            </div>
+        </div>
+    </header>
+     <!--   HOME  -->
+    <div class="home">
+        <!--Bloc latéral catégories-->
+        <div class="home__sidebar-categories">
+            <div class="home__sidebar-categories--grid">
+                <div class="home__sidebar-categories--grid-grid">
+                    <i class="fa-solid fa-grip"></i>
+                </div>
+                <div class="home__sidebar-categories--grid-categories">
+                   <p>categories</p>
+                </div>
+            </div>
+            
+            <!--Je crée plusieurs blocks dans lesquelles se trouvent des puces-->
+            <div class="home__sidebar-categories--block-1">
+                <div class="home__sidebar-categories--block-1-puce-1"></div>
+                <div class="home__sidebar-categories--block-1-tout">Tout</div>
+            </div> 
+            <div class="home__sidebar-categories--block-2">
+                <div class="home__sidebar-categories--block-2-puce-2"></div>
+                <div class="home__sidebar-categories--block-2-bricolage">Bricolage</div>
+            </div>
+            <div class="home__sidebar-categories--block-3">
+                 <div class="home__sidebar-categories--block-3-puce-3"></div>
+                 <div class="home__sidebar-categories--block-3-outillage">Outillage</div>
+            </div>
+           <div class="home__sidebar-categories--block-4">
+                <div class="home__sidebar-categories--block-4-puce-4"></div>
+                <div class="home__sidebar-categories--block-4-multimedia">Multimédia</div>
+           </div>
+           <div class="home__sidebar-categories--block-5">
+                <div class="home__sidebar-categories--block-5-puce-5"></div>
+                <div class="home__sidebar-categories--block-5-cuisine">Cuisine</div>
+           </div>
+            <div class="home__sidebar-categories--block-6">
+                <div class="home__sidebar-categories--block-6-puce-6"></div>
+                <div class="home__sidebar-categories--block-6-entretien">Entretien</div>
+            </div>
+            <div class="home__sidebar-categories--block-7">
+                <div class="home__sidebar-categories--block-7-puce-7"></div>
+                <div class="home__sidebar-categories--block-7-bricolage">Bricolage</div>
+            </div>
+            <div class="home__sidebar-categories--block-8">
+                <div class="home__sidebar-categories--block-8-puce-8"></div>
+                <div class="home__sidebar-categories--block-8-outillage">Outillage</div>
+            </div>
+            <div class="home__sidebar-categories--block-9">
+                <div class="home__sidebar-categories--block-9-puce-9"></div>
+                <div class="home__sidebar-categories--block-9-multimedia">Multimédia</div>
+            </div>
+            <div class="home__sidebar-categories--block-10">
+                <div class="home__sidebar-categories--block-10-puce-10"></div>
+                <div class="home__sidebar-categories--block-10-cuisine">Cuisine</div>
+            </div>
+            <div class="home__sidebar-categories--block-11">
+                <div class="home__sidebar-categories--block-11-puce-11"></div>
+                <div class="home__sidebar-categories--block-11-entretien">Entretien</div>
+            </div>
+        </div>
+                    <!--Bloc affichages-->
+        <div class="home__display">
+            <div class="home__display-display">
+                <div class="home__display-display--1"></div>Affichage:   <i class="fa-solid fa-grid-2"></i>
+                <div class="home__display--btn">
+                    <select class="home__display--btn-1" name="result" id="select-result">
+                    <option value="">Trier les résultats</option>
+                    </select>
+                </div>
+
+            </div>
+            
+                    <!--Bloc pour afficher un produit-->
+            <div class="home__product-display">
+                <div class="home__product-display--image-hammer">
+                    <img src="./images/bricolage_marteau.png" alt="bricolage_marteau">
+                </div>
+                <div class="home__product-display-2">
+                    <div class="home__product-display-2--name">Marteau</div>
+                    <div class="home__product-display-2--price">1 €</div>
+                    <div class="home__product-display-2--stock">En stock</div>
+                </div>
+                
+
+            </div>
+                    <!--Bloc pour afficher des produits-->
+            <div class="home__products-display">
+                <div class="home__products-display-1">
+                    <div class="home__products-display-1--img">
+                        <img src="./images/bricolage_marteau.png" alt="Marteau">
+                    </div>
+                    <div class="home__products-display-1--name">Marteau</div>
+                    <div class="home__products-display-1--price-stock">
+                        <div class="home__products-display-1--price">1 €</div>
+                        <div class="home__products-display-1--stock">En stock</div>
+                    </div>
+                </div>
+                <div class="home__products-display-2">
+                    <div class="home__products-display-2--img">
+                        <img src="./images/bricolage_marteau.png" alt="Marteau">
+                    </div>
+                    <div class="home__products-display-2--name">Marteau</div>
+                    <div class="home__products-display-2--price-stock">
+                        <div class="home__products-display-2--price">1 €</div>
+                        <div class="home__products-display-2--stock">En stock</div>
+                    </div>
+                </div>
+                <div class="home__products-display-3">
+                    <div class="home__products-display-3--img">
+                        <img src="./images/bricolage_marteau.png" alt="Marteau">
+                    </div>
+                    <div class="home__products-display-3--name">Marteau</div>
+                    <div class="home__products-display-3--price-stock">
+                        <div class="home__products-display-3--price">1 €</div>
+                        <div class="home__products-display-3--stock">En stock</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--   FOOTER   -->
+    <div class="footers">
+        <div class="footer-1">
+
+            <div class="options">
+            <div class="icon"><i class="fa-solid fa-tags"></i></div>
+            <p>
+                <b>Articles à petit prix</b>
+                <br>
+                    La majorité des produits sont <br> à 1 euro
+                </p>
+
+            </div>
+
+            <div class="options">
+                <div class="icon"><i class="fa-solid fa-money-bill-1"></i></div>
+                <p>
+                <b>Achats sans soucis</b>
+                <br>
+                    Chaque commande est <br> fournie mains à mains
+                </p>
+
+            </div>
+
+            <div class="options">
+                <div class="icon"><i class="fa-solid fa-credit-card"></i></div>
+                <p>
+                    <b>Paiement sécurisé</b>
+                <br>
+                    Payez sans vous souciez lors <br> du retrait
+
+                </p>
+            
+
+            </div>
+
+            <div class="options">
+                <div class="icon"><i class="fa-solid fa-truck"></i></div>
+                <p>
+                <b>Livraison Lilloise</b>
+                <br>
+                    Ce que vous voulez, préparé pour <br> les lillois et les alentours
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="footer-2">
+            
+            <div class="acc-cata-quest">
+                <ul>
+                    <li>Accueil</li><br>
+                    <li>Catalogue</li><br>
+                    <li>Questions fréquentes</li><br>
+                </ul>
+
+            </div>
+
+            <div class="visite-retrait-contact">
+                <ul>
+                    <li>Première visite</li><br>
+                    <li>Livraison retrait</li><br>
+                    <li>Contact</li><br>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="footer-3">
+
+            <p class="mentions">Mentions légales <b>|</b>   Conditions générales d'utilisation et de ventes</p>
+        </div>
+    </div>
+    </body>

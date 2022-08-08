@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
   font-family: "Montserrat", "sans-serif";
@@ -238,6 +239,350 @@ body {
   justify-content: space-around;
   color: #EA5455;
   font-weight: bold;
+}
+
+/*Le block home*/
+.home {
+  display: flex;
+  flex-direction: row;
+  height: 1200px;
+}
+
+/*Le block home__sidebar-categories*/
+.home__sidebar-categories {
+  width: 150px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 30px;
+}
+
+.home__sidebar-categories--grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.home__sidebar-categories--grid-grid i {
+  color: black;
+  margin-left: -30px;
+}
+
+.home__sidebar-categories--grid-categories {
+  margin-left: 20px;
+}
+
+/*Style appliqué à toutes les listes sous forme de puces non ordonnées */
+.home__sidebar-categories--block-1 {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+
+.home__sidebar-categories--block-1-puce-1 {
+  width: 5px;
+  height: 5px;
+  border-style: solid;
+  border-radius: 50%;
+  color: #EA5455;
+  background-color: #EA5455;
+}
+
+.home__sidebar-categories--block-1-tout {
+  margin-left: 10px;
+  color: #EA5455;
+}
+
+.home__sidebar-categories--block-2 {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+
+.home__sidebar-categories--block-2-puce-2 {
+  width: 5px;
+  height: 5px;
+  border-style: solid;
+  border-radius: 50%;
+  color: #727272;
+}
+
+.home__sidebar-categories--block-2-bricolage {
+  margin-left: 10px;
+  color: #727272;
+}
+
+.home__sidebar-categories--block-3 {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+
+.home__sidebar-categories--block-3-puce-3 {
+  width: 5px;
+  height: 5px;
+  border-style: solid;
+  border-radius: 50%;
+  color: #727272;
+}
+
+.home__sidebar-categories--block-3-outillage {
+  margin-left: 10px;
+  color: #727272;
+}
+
+.home__sidebar-categories--block-4 {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+
+.home__sidebar-categories--block-4-puce-4 {
+  width: 5px;
+  height: 5px;
+  border-style: solid;
+  border-radius: 50%;
+  color: #727272;
+}
+
+.home__sidebar-categories--block-4-multimedia {
+  margin-left: 10px;
+  color: #727272;
+}
+
+.home__sidebar-categories--block-5 {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+
+.home__sidebar-categories--block-5-puce-5 {
+  width: 5px;
+  height: 5px;
+  border-style: solid;
+  border-radius: 50%;
+  color: #727272;
+}
+
+.home__sidebar-categories--block-5-cuisine {
+  margin-left: 10px;
+  color: #727272;
+}
+
+.home__sidebar-categories--block-6 {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+
+.home__sidebar-categories--block-6-puce-6 {
+  width: 5px;
+  height: 5px;
+  border-style: solid;
+  border-radius: 50%;
+  color: #727272;
+}
+
+.home__sidebar-categories--block-6-entretien {
+  margin-left: 10px;
+  color: #727272;
+}
+
+.home__sidebar-categories--block-7 {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+
+.home__sidebar-categories--block-7-puce-7 {
+  width: 5px;
+  height: 5px;
+  border-style: solid;
+  border-radius: 50%;
+  color: #727272;
+}
+
+.home__sidebar-categories--block-7-bricolage {
+  margin-left: 10px;
+  color: #727272;
+}
+
+.home__sidebar-categories--block-8 {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+
+.home__sidebar-categories--block-8-puce-8 {
+  width: 5px;
+  height: 5px;
+  border-style: solid;
+  border-radius: 50%;
+  color: #727272;
+}
+
+.home__sidebar-categories--block-8-outillage {
+  margin-left: 10px;
+  color: #727272;
+}
+
+.home__sidebar-categories--block-9 {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+
+.home__sidebar-categories--block-9-puce-9 {
+  width: 5px;
+  height: 5px;
+  border-style: solid;
+  border-radius: 50%;
+  color: #727272;
+}
+
+.home__sidebar-categories--block-9-multimedia {
+  margin-left: 10px;
+  color: #727272;
+}
+
+.home__sidebar-categories--block-10 {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+
+.home__sidebar-categories--block-10-puce-10 {
+  width: 5px;
+  height: 5px;
+  border-style: solid;
+  border-radius: 50%;
+  color: #727272;
+}
+
+.home__sidebar-categories--block-10-cuisine {
+  margin-left: 10px;
+  color: #727272;
+}
+
+.home__sidebar-categories--block-11 {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+
+.home__sidebar-categories--block-11-puce-11 {
+  width: 5px;
+  height: 5px;
+  border-style: solid;
+  border-radius: 50%;
+  color: #727272;
+}
+
+.home__sidebar-categories--block-11-entretien {
+  margin-left: 10px;
+  color: #727272;
+}
+
+/*Le block home__display*/
+/*Dimension du home__display*/
+.home__display {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 838px;
+  height: 700px;
+}
+
+/*block home__display-display*/
+.home__display-display {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Je déplace le block bouton*/
+.home__display--btn {
+  margin-left: 250px;
+}
+
+/*Style appliqué pour former un bouton*/
+.home__display--btn-1 {
+  background-color: #EA5455;
+  padding: 10px;
+}
+
+/*Block Home__product-display */
+.home__product-display {
+  height: 233px;
+  display: flex;
+}
+
+.home__product-display--image-hammer img {
+  width: 220px;
+  height: 186px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+/*Style appliqué au block home__product-display-2 */
+.home__product-display-2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  margin-top: 20px;
+  padding-top: 30px;
+  justify-content: space-between;
+  height: 80px;
+}
+
+/*Style appliqué à l'élément du block home__product-display-2--stock*/
+.home__product-display-2--stock {
+  color: #42CC58;
+}
+
+/*Style appliqué au block home__products-display*/
+.home__products-display {
+  margin-top: 100px;
+  width: 838px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home__products-display-1 img {
+  width: 220px;
+  height: 186px;
+  margin-top: 20px;
+}
+
+.home__products-display-1--price-stock, .home__products-display-2--price-stock, .home__products-display-3--price-stock {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+
+.home__products-display-1--stock, .home__products-display-2--stock, .home__products-display-3--stock {
+  color: #42CC58;
+  margin-left: 140px;
+}
+
+.home__products-display-2 img {
+  width: 220px;
+  height: 186px;
+  margin-top: 20px;
+}
+
+.home__products-display-3 img {
+  width: 220px;
+  height: 186px;
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
