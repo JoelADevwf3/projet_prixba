@@ -3,7 +3,6 @@ body {
   font-family: "Montserrat", "sans-serif";
 }
 
-<<<<<<< HEAD
 .header__superior {
   background-color: #e5e5e5;
   height: 105px;
@@ -239,7 +238,7 @@ body {
   justify-content: space-around;
   color: #EA5455;
   font-weight: bold;
-=======
+}
 .fiche-produit {
   display: flex;
 }
@@ -315,7 +314,7 @@ body {
   height: 100px;
   margin-left: 20px;
   margin-top: 20px;
->>>>>>> feat/product
+
 }
 
 /*# sourceMappingURL=style.css.map */
